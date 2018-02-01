@@ -1,0 +1,617 @@
+#id 1
+data/salas/s001.txt
+
+#id 2
+data/salas/s002.txt
+
+#id 3
+data/salas/s003.txt
+
+#id 4
+data/salas/s004.txt
+
+#id 5
+data/salas/s005.txt
+
+#id 6
+data/salas/s006.txt
+
+#id 7
+data/salas/s007.txt
+
+#id 8... Sala con montaña y torre.
+data/salas/s008.txt
+
+#id 9... Interior de la torre, planta 0.
+data/salas/s009.txt
+
+#id 10 ... Interior de la torre, planta -1.
+data/salas/s010.txt
+
+#id 11 ... Interior de la torre, planta 1
+data/salas/s011.txt
+
+#id 12 ... Interior de la torre, planta 2
+data/salas/s012.txt
+
+#id 13 ... Patio con bloqueo.
+data/salas/s013.txt
+
+#id 14 ... Interruptor sala 13 I.
+data/salas/s014.txt
+
+#id 15 ... Interruptor sala 13 II.
+data/salas/s015.txt
+
+#id 16 ... Doble nivel I
+data/salas/s016.txt
+
+#id 17 ... Doble nivel II
+data/salas/s017.txt
+
+#id 18 ... Doble nivel III
+data/salas/s018.txt
+
+#id 19 ... Conector zona 2
+data/salas/s019.txt
+
+#id 20 ... Conector con jardín bonus.
+data/salas/s020.txt
+
+#id 21 ... Gran salón inicial.
+data/salas/s021.txt
+
+#id 22 ... Comedor este
+data/salas/s022.txt
+
+#id 23 ... Despensa sin salida
+data/salas/s023.txt
+
+#id 24 ... Exterior este
+data/salas/s024.txt
+
+#id 25 ... Cocinas doble nivel
+data/salas/s025.txt
+
+#id 26 ... Pasaje conector comedor arriba
+data/salas/s026.txt
+
+#id 27 ... Conector comedor - pasaje fin 1 / 2
+data/salas/s027.txt
+
+#id 28 ... Conector comedor - pasaje fin 2 / 2
+data/salas/s028.txt
+
+#id 29 ... Pasaje fin
+data/salas/s029.txt
+
+#id 30 ... Entrada jardin
+data/salas/s030.txt
+
+#id 31 ... Brazo jardin SE
+data/salas/s031.txt
+
+#id 32 ... Centro jardin
+data/salas/s032.txt
+
+#id 33 ... Brazo jardin SO
+data/salas/s033.txt
+
+#id 34 ... Fin jardín SO
+data/salas/s034.txt
+
+#id 35 ... Brazo jardín NO
+data/salas/s035.txt
+
+#id 36 ... Fin jardín NO
+data/salas/s036.txt
+
+#id 37 ... Brazo jardín NE
+data/salas/s037.txt
+
+#id 38 ... Fin jardín NE
+data/salas/s038.txt
+
+#id 39 ... Conector jardín - pasaje fin
+data/salas/s039.txt
+
+#id 40 ... Acceso zona 3
+data/salas/s040.txt
+
+#id 41 ... Planta 0 : entrada
+data/salas/s041.txt
+
+#id 42 ... Planta 0 : Sala trono
+data/salas/s042.txt
+
+#id 43 ... Planta 0 : Escalera subida planta 1
+data/salas/s043.txt
+
+#id 44 ... Planta -1 : Escaleras
+data/salas/s044.txt
+
+#id 45 ... Planta -1 : Sala en L.
+data/salas/s045.txt
+
+#id 46 ... Planta -2 : Sala norte
+data/salas/s046.txt
+
+#id 47 ... Planta -2 : Tesoreria
+data/salas/s047.txt
+
+#id 48 ... Planta 1 : Distribuidor
+data/salas/s048.txt
+
+#id 49 ... Planta 1 : Pasillo guardia.
+data/salas/s049.txt
+
+#id 50 ... Planta 1 : Cámaras reales
+data/salas/s050.txt
+
+#id 51 ... Planta 1 : Escalera a planta 2
+data/salas/s051.txt
+
+#id 52 ... Planta 2 : Distribuidor.
+data/salas/s052.txt
+
+#id 53 ... Planta 2 : Observatorio.
+data/salas/s053.txt
+
+#id 54 ... Planta 2 : Balcón observatorio.
+data/salas/s054.txt
+
+#id 55 ... Plantas 2-3 : Fachada.
+data/salas/s055.txt
+
+#id 56 ... Planta 3 : Libreria
+data/salas/s056.txt
+
+#id 57 ... Planta 3 : Escaleras descendentes
+data/salas/s057.txt
+
+#id 58 ... Planta 3 : Ascenso torre.
+data/salas/s058.txt
+
+#id 59 ... Planta 4 : Alto torre.
+data/salas/s059.txt
+
+#id 60 ... Planta 4 : Sala del tesoro. 
+data/salas/s060.txt
+
+#id 61 ... Secreto sala 3
+data/salas/s061.txt
+
+#id 62 ... Secreto sala 4
+data/salas/s062.txt
+
+#id 63 ... Secreto sala 7
+data/salas/s063.txt
+
+#id 64 ... Secreto sala 8
+data/salas/s064.txt
+
+#id 65 ... Secreto sala 11
+data/salas/s065.txt
+
+#id 66 ... Secreto 1 sala 16
+data/salas/s066.txt
+
+#id 67 ... Secreto 2 sala 16
+data/salas/s067.txt
+
+#id 68 ... Secreto 1 sala 24
+data/salas/s068.txt
+
+#id 69 ... Secreto 2 sala 24
+data/salas/s069.txt
+
+#id 70 ... Secreto sala 26
+data/salas/s070.txt
+
+#id 71 ... Secreto sala 27
+data/salas/s071.txt
+
+#id 72 ... Secreto sala 30
+data/salas/s072.txt
+
+#id 73 ... Secreto sala 31
+data/salas/s073.txt
+
+#id 74 ... Secreto sala 32
+data/salas/s074.txt
+
+#id 75 ... Secreto sala 33
+data/salas/s075.txt
+
+#id 76 ... Secreto sala 35
+data/salas/s076.txt
+
+#id 77 ... Secreto sala 37
+data/salas/s077.txt
+
+#id 78 ... Secreto sala 41
+data/salas/s078.txt
+
+#id 79 ... Secreto sala 42
+data/salas/s079.txt
+
+#id 80 ... Secreto sala 43
+data/salas/s080.txt
+
+#id 81 ... Secreto sala 44
+data/salas/s081.txt
+
+#id 82 ... Secreto sala 45
+data/salas/s082.txt
+
+#id 83 ... Secreto sala 46
+data/salas/s083.txt
+
+#id 84 ... Secreto sala 49
+data/salas/s084.txt
+
+#id 85 ... Secreto sala 50 1-3
+data/salas/s085.txt
+
+#id 86 ... Secreto sala 50 2-3
+data/salas/s086.txt
+
+#id 87 ... Secreto sala 50 3-3
+data/salas/s087.txt
+
+#id 88 ... Secreto sala 51
+data/salas/s088.txt
+
+#id 89 ... Secreto sala 53 1-2
+data/salas/s089.txt
+
+#id 90 ... Secreto sala 53 2-2
+data/salas/s090.txt
+
+#id 91 ... Secreto sala 56 1-2
+data/salas/s091.txt
+
+#id 92 ... Secreto sala 56 2-2
+data/salas/s092.txt
+
+#id 93 ... Secreto sala 57
+data/salas/s093.txt
+
+#id 94 ... Secreto sala 59
+data/salas/s094.txt
+
+#id 95 ... Secreto sala 60
+data/salas/s095.txt
+
+#id 96 ... Super secreto 1-5
+data/salas/s096.txt
+
+#id 97 ... Super secreto 2-5
+data/salas/s097.txt
+
+#id 98 ... Super secreto 3-5
+data/salas/s098.txt
+
+#id 99 ... Super secreto 4-5
+data/salas/s099.txt
+
+#id 100 ... Cierre puzzle en torre.
+data/salas/s100.txt
+
+#id 101 ... Sala que contiene la primera pieza del puzzle
+data/salas/s101.txt
+
+#id 102 ... Conector con la parte superior.
+data/salas/s102.txt
+
+#id 103 ... Conector doble desde puerta a parte superior.
+data/salas/s103.txt
+
+#id 104 ... Subida hasta entrada de amuleto
+data/salas/s104.txt
+
+#id 105 ... Entrada de amuleto
+data/salas/s105.txt
+
+#id 106 ... Templo amuleto
+data/salas/s106.txt
+
+#id 107 ... Antecámara piedra fuego
+data/salas/s107.txt
+
+#id 108 ... Sala piedra fuego
+data/salas/s108.txt
+
+#id 109 ... Sala retorno piedra fuego
+data/salas/s109.txt
+
+#id 110 ... Camino a piedra agua desde sala 12.
+data/salas/s110.txt
+
+#id 111 ... Camino a piedra agua
+data/salas/s111.txt
+
+#id 112 ... Distribuidor piedra agua
+data/salas/s112.txt
+
+#id 113 ... Conexión con sala 14
+data/salas/s113.txt
+
+#id 114 ... Sala piedra agua
+data/salas/s114.txt
+
+#id 115 ... Sala piedra impulso
+data/salas/s115.txt
+
+#id 116	... Sala lava post puzzle en torre.
+data/salas/s116.txt
+
+#id 117	... Post sala 116 con trampas.
+data/salas/s117.txt
+
+#id 118	... Cueva en sala 36.
+data/salas/s118.txt
+
+#id 119	... Acceso a bajada a minas.
+data/salas/s119.txt
+
+#id 120	... Sala sin salida bonus.
+data/salas/s120.txt
+
+#id 121 ... Cueva sin salida bonus
+data/salas/s121.txt
+
+#id 122 ... Bajada a minas
+data/salas/s122.txt
+
+#id 123 ... Entrada minas
+data/salas/s123.txt
+
+#id 124 ... Camino minas con saltos
+data/salas/s124.txt
+
+#id 125 ... Gran sala en L en minas.
+data/salas/s125.txt
+
+#id 126 ... Camino sin salida minas.
+data/salas/s126.txt
+
+#id 127 ... Fin camino sin salida minas.
+data/salas/s127.txt
+
+#id 128 ... Distribuidor minas.
+data/salas/s128.txt
+
+#id 129 ... Sala palanca minas (que se supone que abre esto???? Tendríamos que ampliar las minas para darle sentido).
+data/salas/s129.txt
+
+#id 130 ... Fin minas.
+data/salas/s130.txt
+
+#id 131 ... Conector minas con jardines.
+data/salas/s131.txt
+
+#id 132 ... Inicio templo con puzzle tiempo
+data/salas/s132.txt
+
+#id 133 ... Subida puzzle tiempo
+data/salas/s133.txt
+
+#id 134 ... Distribuidor trampas templo
+data/salas/s134.txt
+
+#id 135 ... Sala sin salida bonus saltos templo
+data/salas/s135.txt
+
+#id 136 ... Camino templo
+data/salas/s136.txt
+
+#id 137 ... Camino templo trampas
+data/salas/s137.txt
+
+#id 138 ... Distribuidor interior templo
+data/salas/s138.txt
+
+#id 139 ... Conexión templo con sótano torre
+data/salas/s139.txt
+
+#id 140 ... Conexión templo con sala trono
+data/salas/s140.txt
+
+#id 141 ... Salida templo
+data/salas/s141.txt
+
+#id 142 ... Conexión templo con jardines.
+data/salas/s142.txt
+
+#id 143 ... Sala final minas.
+data/salas/s143.txt
+
+#id 144 ... Entrada templo
+data/salas/s144.txt
+
+#id 145 ... Sala camino a piedra salto en templo
+data/salas/s145.txt
+
+#id 146 ... Sala piedra salto
+data/salas/s146.txt
+
+#id 147 ... Sala bonus tras sótano torre.
+data/salas/s147.txt
+
+#id 148 ... Sala post puzzle inicio templo
+data/salas/s148.txt
+
+#id 149 ... Sala post sala 134 en templo
+data/salas/s149.txt
+
+#id 150 ... Sala tras puzzle en sala 104
+data/salas/s150.txt
+
+#id 151 ... Sala tras mini jardín en palanca.
+data/salas/s151.txt
+
+#id 152	... Sala tras lava en sala hornos.
+data/salas/s152.txt
+
+#id 153 ... Sala tras 147
+data/salas/s153.txt
+
+#id 154 ... Sala tras 150
+data/salas/s154.txt
+
+#id 155 ... Lateral muro tras 24
+data/salas/s155.txt
+
+#id 156	... Sala tras 155
+data/salas/s156.txt
+
+#id 157 ... Sala tras cataratas en sala 36
+data/salas/s157.txt
+
+#id 158 ... Acceso norte templo
+data/salas/s158.txt
+
+#id 159 ... Descenso desde sala 18
+data/salas/s159.txt
+
+#id 160 ... Sala post 137
+data/salas/s160.txt
+
+#id 161 ...  Sala post 159
+data/salas/s161.txt
+
+#id 162 ... Sala post 161
+data/salas/s162.txt
+
+#id 163 ... Sala bajo 157
+data/salas/s163.txt
+
+#id 164 ... Sala tras lava en 110, hornos, con acceso teleportador a sala posterior. Bloqueada por puzzle en anterior. Se lanza fuego de una torre y una plataforma aparece temporizada. Bonus en cornisa norte.
+data/salas/s164.txt
+
+#id 165 ... Sala tras 164, con llave.
+data/salas/s165.txt
+
+#id 166 ... Sala tras puerta escaleras planta baja torre, bloqueada por puzzle y con bonus.
+data/salas/s166.txt
+
+#id 167 ... Sala trampas, salida este sala 43.
+data/salas/s167.txt
+
+#id 168 ... Sala trampas al sur de sala 44 con llave.
+data/salas/s168.txt
+
+#id 169 ... Sala norte 51, contiene puzzle que da acceso a sala con cofre. Sólo flavor, decorada con cortinas, pedestales, ventanas y mierdas.
+data/salas/s169.txt
+
+#id 170 ... Post 169. Sala con cofre
+data/salas/s170.txt
+
+#id 171 ... Post 125.
+data/salas/s171.txt
+
+#id 172 ... Sala cofre en cuevas: es una mano de piedra enorme :D.
+data/salas/s172.txt
+
+#id 173 ... Sala post 126. Contiene llave. 
+data/salas/s173.txt
+
+#id 174 ... Post cartógrafo. 
+data/salas/s174.txt
+
+#id 175 ... Post jardines inicio juego. Necesario penúltimo cofre.
+data/salas/s175.txt
+
+#id 176 ... Bonus bajo sky gardens, pequeña. Sería como un mini jardín con plantas y tal.
+data/salas/s176.txt
+
+#id 177	... Secreto de sala 171, al norte, entre la piedra.
+data/salas/s177.txt
+
+#id 178 ... Secreto de sala 158, última plataforma al norte, debajo.
+data/salas/s178.txt
+
+#id 179 ... Secreto de sala 140. En lo alto, hacia el oeste.
+data/salas/s179.txt
+
+#id 180 ... Secreto de sala 137. En última rampa, abajo, hacia el oeste. Las partes elevadas son maquinaria.
+data/salas/s180.txt
+
+#id 181	... Secreto de sala 133. Se abriría en el agujero que hay al sur usando una palanca oculta. Abajo del todo habría lava inaccesible con una reja y tal.
+data/salas/s181.txt
+
+#id 182 ... Secreto de la sala 130. Se abre al sur en la plataforma. Usando palanca oculta. Tiene un canal y un puente.
+data/salas/s182.txt
+
+#id 183 ... Secreto de la sala 125, pared norte.
+data/salas/s183.txt
+
+#id 184 ... Secreto de la sala 125, pared oeste.
+data/salas/s184.txt
+
+#id 185 ... Secreto de la sala 126. Sería una construcción tipo templo.
+data/salas/s185.txt
+
+#id 186 ... Secreto de la sala 129.
+data/salas/s186.txt
+
+#id 187 ... Secreto de la sala 138 -> En lo alto de la cornisa. Sería una sala estrecha con ladrillo de piedra cuadrado.
+data/salas/s187.txt
+
+#id 188 ... Secreto de la sala 147 -> Justo al norte de la entrada. Un par de ríos de lava y maquinaria.
+data/salas/s188.txt
+
+#id 189 ... Secreto de la sala 101 -> Retocar y hacer sólo alcanzable con super salto, con unos bonus.
+data/salas/s189.txt
+
+#id 190 ... Secreto de la sala 101 -> Detrás del pedestal de la llave.
+data/salas/s190.txt
+
+#id 191 ... Secreto de la sala 111 -> En la pared oeste.
+data/salas/s191.txt
+
+#id 192 ... Secreto de la sala 165 -> Nada más entrar, al norte.
+data/salas/s192.txt
+
+#id 193 ... Secreto de la sala 121 -> En el hueco de la parte baja, al oeste.
+data/salas/s193.txt
+
+#id 194 ... Secreto de la sala 117 -> Una antorcha apagada en el hueco inferior, abriria acceso al este.
+data/salas/s194.txt
+
+#id 195 ... Secreto de la sala 17 -> En lo alto.
+data/salas/s195.txt
+
+#id 196 ... Secreto de la sala 161 -> En la primera plataforma.
+data/salas/s196.txt
+
+#id 197 ... Sala tras puzzle en sala 27
+data/salas/s197.txt
+
+#id 198 ... Sala tras puzzle en sala 32
+data/salas/s198.txt
+
+#id 199 ... Sala tras puzzle en sala 131
+data/salas/s199.txt
+
+#id 200 ... Sala tras puzzle en sala 38
+data/salas/s200.txt
+
+#id 201 ... Sala tras puzzle en sala 45
+data/salas/s201.txt
+
+#id 202 ... Sala tras puzzle en sala 47
+data/salas/s202.txt
+
+#id 203 ... Sala tras puzzle en sala 53
+data/salas/s203.txt
+
+#id 204 ... Sala tras puzzle en sala 58. Como una piscina vacía.
+data/salas/s204.txt
+
+#id 205 ... Sala tras puzzle en sala 106 (al final, escalera y plataforma).
+data/salas/s205.txt
+
+#id 206 ... Sala tras puzzle en sala 109
+data/salas/s206.txt

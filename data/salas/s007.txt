@@ -1,0 +1,107 @@
+#Sala que conecta con la parte superior de 4 y la parte superior de 5.
+#w	h	d	id_sala	cam.est secreta
+10	5	6	7	1	0
+
+################################################################################
+[F]
+################################################################################
+#x	y	z	comp	rep	id	pla
+#Suelo
+*	*	0	1	4	0	0
+6	2	0	1	14	0	0
+
+#Muro invisible sur y puerta...
+*	5	*	1	0	0	0
+4	5	0	1	4	0	1
+4	5	1|4	0	0	0	0
+
+#Muro invisible este y puerta
+9	*	*	1	0	0	0
+9	1	0	1	4	0	1
+9	1	1|4	0	0	0	0
+
+#Muros norte y oeste. Los finales son invisibles, para cuadrar con los muros 
+#sur y este.
+0|8	0	1|4	1	12	0	0
+0	1|4	1|4	1	12	0	1
+
+#Muros de separacion... y entradas La parte superior de los muros es invisible.
+3	1|4	1	1	2	0	1
+3	1|4	2|4	1	0	0	0
+3	2	1	0	0	0	0
+
+6	1|4	1	1	2	0	1
+6	1	2	1	0	0	0
+6	3|4	2	1	0	0	0
+6	2	1	0	0	0	0
+6	1|3	2|3	1	0	0	0
+
+#Rampa muro este...
+#7	4	1	1	2	0	1
+#6	4	2	1	2	0	1
+#6	4	3|4	0	0	0	0
+8	3	1	13	24	0	1
+7|8	4	1	3	2	0	1
+7	4	2	11	22	0	1
+6	4	2	3	2	0	1
+
+#Secreto...
+0	2	1	1	8	7	-
+0	2	0	1	4	0	0
+
+################################################################################
+[F]
+################################################################################
+
+
+#Entrada sur , este
+#tipo	x	y	z	id
+1	67	84	16	1
+1	150	20	16	2
+1	4	35	16	3
+
+#Salida sur[4] y este[5]
+#tipo	x	y	z	w	d	h	entr	sala
+2	64	96	16	16	1	1	4	4
+2	159	16	16	1	16	1	3	5
+2	0	32	16	1	16	1	1	63
+
+#Rejas decorativas de los muros separadores.
+#tipo	x	y	z	orientacion
+14	56	16	32	2
+14	56	32	32	2
+14	56	48	32	2
+14	56	64	32	2
+
+14	104	16	32	2
+14	104	32	32	2
+14	104	48	32	2
+
+#Interruptor no repetible
+#tipo	x	y	z	cadena	id	t.cond	cadena.cond
+7	22	68	16	1	2	0	0
+
+#altern	x	y	z	id	t.actor	patron	paso	activo	idon	idoff
+5	98	34	16	3	1	1	0	1	0	0
+
+#Sonido: palanca, tictac y fuego...
+#tipo	x	y	z	t.repr.	id_snd	volum	pan	param1	param2	activo	id
+4	0	0	0	1	50	40	127	0	0	0	6
+4	0	0	0	2	54	128	127	0	0	0	4
+4	0	0	0	2	55	90	127	0	0	1	5
+
+#Sonido secreto
+#tipo	x	y	z	t.repr.	id_snd	volum	pan	param1	param2	activo	id
+4	0	0	0	1	56	128	127	0	0	0	8
+
+#Marca salida
+14	64	104	16	112
+14	170	16	16	111
+
+################################################################################
+[F]
+################################################################################
+
+#Interruptor secreto
+#tipo	x	y	z	w	h	d	cadena	secreto t.cond	cadena.cond
+8	16	32	16	1	16	16	98	1	0	0

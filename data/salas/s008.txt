@@ -1,0 +1,210 @@
+#Sala con montañas al oeste y torre al norte, conectando con un puente al este.
+#La torre tiene una entrada abajo y una salida arriba.
+#w	h	d	id_sala	cam.est secreta
+15	20	15	8	0	0
+
+################################################################################
+[F]
+################################################################################
+#x	y	z	comp	rep	id	pla
+#Suelo
+*	*	0	1	13	0	0
+
+#Muro invisible sur con puerta.
+*	14	*	1	0	0	0
+12|13	14	*	0	0	0	0
+12|13	14	0	1	13	0	0
+
+#Optimizar algunos bloques... primero del suelo.
+0|6	0|8	0	0	0	0	0
+0|4	0|11	0	0	0	0	0
+
+#Montañas... No son filas completas. Primera fila, con escalon al final.
+6	0|8	1|2	1	10	0	1
+5	8	1|2	1	10	0	1
+4	8|11	1|2	1	10	0	1
+0|3	11	1|2	1	10	0	1
+6	4|5	1	1	13	0	1
+6	4|5	2	0	0	0	1
+
+#Segunda fila de montañas...
+5	0|1	3	1	13	0	1
+5	2|3	3|4	1	10	0	1
+5	4|5	2|4	1	10	0	1
+4	5	2|4	1	10	0	1
+3	6|10	2|4	1	10	0	1
+#	Suelo de la segunda fila...
+4|5	6|7	2	1	10	0	1
+
+#Tercera fila de montañas...
+4	0|5	4|6	1	10	0	1
+
+#Escalera de subida...
+1|2	10	3	1	13	0	1
+1|2	9	4	1	13	0	1
+1|2	8	5	1	13	0	1
+1|2	7	6	1	13	0	1
+
+#Tapar agujero que queda...
+2	7	5	1	10	0	1
+2	6	5	1	10	0	1
+2	6	6	1	13	0	1
+3	5	5|6	1	10	0	1
+
+#Suelo alto montaña...
+3	0|4	6	1	10	0	1
+2	3|5	6	1	13	0	1
+1	3|6	6	1	13	0	1
+
+#Gran muro oeste...
+0	10	3|9	1	10	0	1
+0	9	5|9	1	10	0	1
+0	8	6|9	1	10	0	1
+0	7	6|9	1	10	0	1
+0	6	7|9	1	10	0	1
+0	3|5	7|9	1	2	0	1
+0	3|5	7	-	53	-	-
+
+#Gran muro norte...
+10	0	1|4	1	10	0	1
+11	0	1|5	1	10	0	1
+12|13	0	1|6	1	10	0	1
+14	0	1|8	1	10	0	1
+
+#Torre
+3	0|2	7|19	1	2	0	1
+0|2	2	7|19	1	2	0	1
+0|3	2	14	-	50	-	-
+3	0	14	-	50	-	-
+1|2	2	11	-	52	-	-
+3	1	11	-	52	-	-
+1|2	2	18	-	52	-	-
+3	1	18	-	52	-	-
+
+#Puerta torre (norte) y suelo...
+1	2	7|8	0	0	0	1
+1	2	6	1	2	0	1
+
+#Puerta torre (oeste) y suelo...
+3	1	15|16	0	0	0	1
+3	1	14	1	4	0	1
+
+#Techo torre...
+0|2	0|1	19	1	2	0	1
+
+#Puente, plataforma y pilar
+4|14	1	14	1	4	0	1
+9|11	2	14	1	4	0	1
+10	1	1|16	1	2	0	1
+
+#Muralla pilar y arco...
+10	2|4	2	1	2	0	1
+10	7|13	2	1	2	0	1
+10	1|4	1	1	53	0	1
+10	7|13	1	1	53	0	1
+10	4|7	3	3	2	0	1
+10	8	3	12	23	-	-
+10	3	3	13	24	-	-
+
+#Muro sobre pilar con salida norte...
+10|14	0	14|18	1	2	0	0
+12	0	15|16	0	0	0	0
+13|14	0	14|18	-	-	-	1
+
+#Optimizar planos...
+6	0|8	1	-	-	-	0
+5	8	1	-	-	-	0
+
+4	8|11	1	-	-	-	0
+6	0|3	2	-	-	-	0
+0|4	11	1	-	-	-	0
+0	0|10	*	-	-	-	0
+#1|2	0|7	6	-	-	-	0
+5	4|4	2	-	-	-	0
+5	0|4	3	-	-	-	0
+4	0|1	4|5	-	-	-	0
+1|2	10	3	-	-	-	0
+1|2	9	4	-	-	-	0
+1|2	8	5	-	-	-	0
+2	6|7	5	-	-	-	0
+1|2	1|7	6	-	-	-	0
+#3|4	0|5	6	-	-	-	0
+
+#Rampas subida
+7	4|5	1	11	26	-	1
+6	4|5	1	3	-	-	-
+1|2	7	6	12	27	-	1
+1|2	6	6	3	-	-	-
+
+#Secreto y fixes profundidad del mismo.
+4	1	4	1	154	1	1
+4	1	3	1	13	-	0
+4	1	5	-	153	-	1
+4	0	4|7	-	-	-	1
+4	2	4	1	-	-	-
+3	1	4	1	-	-	-
+
+
+################################################################################
+[F]
+################################################################################
+
+#Entrada sur, norte, torre
+#tipo	x	y	z	id
+1	204	226	16	1
+1	19	36	112	2
+1	53	18	240	3
+1	195	7	240	4
+1	74	20	64	5
+
+#Salida punto guardado.
+1	98	179	16	6
+
+#Salida sur, norte
+#tipo	x	y	z	w	d	h	entr	sala
+2	192	239	16	32	1	1	4	5
+2	16	32	112	32	1	1	1	100
+2	48	16	240	1	16	32	2	12
+2	192	0	240	16	1	1	1	13
+2	64	16	64	1	16	1	1	64
+
+#Sonido ambiente pájaros
+#tipo	x	y	z	t.repr.	id_snd	volum	pan	param1	param2	activo	id
+4	0	0	0	3	52	32	127	1000	500	1	0
+4	0	0	0	3	53	32	127	50	1500	1	0
+
+#Sonido secreto
+#tipo	x	y	z	t.repr.	id_snd	volum	pan	param1	param2	activo	id
+4	0	0	0	1	56	128	127	0	0	0	2
+
+#Teletransportadores
+#tipo	x	y	z	id_tel.	id_destino
+17	192	16	20	1	2
+14	192	16	16	91
+
+17	224	16	244	2	1
+14	224	16	240	91
+
+#Plancha y punto de guardado...
+14	112	176	16	25
+
+#tipo	x	y	z	id_sal
+21	116	180	20	6
+
+#Marca salida
+14	200	248	16	112
+
+################################################################################
+[F]
+################################################################################
+
+#Interruptor secreto
+#tipo	x	y	z	w	h	d	cadena	secreto t.cond	cadena.cond
+8	79	16	64	1	16	16	101	1	0	0
+
+#Bonus
+14	162	88	64	4
+14	164	96	64	4
+14	82	79	80	4
+14	2	57	160	105
+14	163	20	272	105

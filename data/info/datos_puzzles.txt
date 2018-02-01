@@ -1,0 +1,236 @@
+#definición del puzzle.
+#id	w	h	rec	x_rec	y_rec	w_rec	h_rec
+#0	2	2	8	0	0	0	0
+#definición de la solución.
+#indice	id_p	rotac
+#0	1	5	-> indice 0: x0 y0 en función de w y h	
+#1	2	0	-> indice 1: x1 y0
+#3	3	0	-> indice 3: x0 y1
+#[F]
+
+#Puzzle 1, un triángulo invertido.
+1	1	1	9	0	0	33	19
+0	0	4
+[F]
+
+#Puzzle 2, la pieza 1 vale en cualquier rotación. Es como un alambique.
+2	2	2	9	0	19	27	28
+1	0	4
+2	1	15
+3	2	3
+[F]
+
+#Puzzle 3, una seta con un sol.
+3	2	2	9	0	47	29	17
+0	0	1
+1	1	15
+2	2	2
+[F]
+
+#Puzzle 4... Una bola de cristal sobre un soporte. 
+4	1	2	9	33	0	22	32
+0	1	15
+1	3	4
+[F]
+
+#Puzzle 5... Un templo de tres terrazas.
+5	1	2	9	29	50	18	30
+0	3	1
+1	5	10
+[F]
+
+#Puzzle 6... Una antorcha.
+6	1	2	9	47	50	10	30
+0	0	1
+1	3	4
+[F]
+
+#Puzzle 7... Una brújula que apunta al noreste.
+7	3	3	9	0	65	29	16
+2	2	1
+4	1	15
+[F]
+
+#Puzzle 8... Una flecha, la mitad no es visible.
+8	3	1	9	65	33	31	5
+0	3	2
+2	0	2
+[F]
+
+#Puzzle 9, se abre con la pieza 2, un refugio de la lluvia.
+9	1	1	9	55	0	28	33
+0	2	8
+[F]
+
+#Puzzle 10, se abre con las piezas 0 y 1. El sol sale junto a la montaña.
+10	2	2	9	29	33	36	18
+2	0	1
+3	1	15
+[F]
+
+#Puzzle 11, una cimitarra.
+11	3	1	9	65	38	31	8
+0	3	8
+1	6	10
+2	7	1
+[F]
+
+#Puzzle 12, un árbol y una torre.
+12	3	3	9	57	64	39	16
+3	0	1
+5	4	1
+6	3	1
+8	5	5
+[F]
+
+#Puzzle 13.... Un viejo con un bastón
+13	3	3	9	118	56	15	26
+1	1	15
+3	9	5
+4	5	5
+5	6	5
+6	3	4
+7	4	1
+[F]
+
+#Puzzle 14, un pescado.
+14	3	2	9	83	0	27	17
+0	0	2
+1	5	10
+2	8	1
+4	7	1
+[F]
+
+#Puzzle 15, un roedor con un sol y una nube.
+15	3	3	9	110	0	30	29
+1	1	15
+2	6	10
+6	7	4
+7	5	10
+8	3	2
+[F]
+
+#Puzzle 16, montaña mar sol y luna.
+16	3	3	9	96	29	24	24
+0	8	4
+2	1	15
+4	0	1
+7	5	10
+[F]
+
+#Puzle 17, una girafa.
+17	3	4	9	120	29	17	27
+0	7	4
+3	6	5
+6	2	4
+8	9	5
+9	5	5
+10	4	1
+[F]
+
+#Puzzle 18, Un barco...
+18	4	3	9	57	50	39	14
+1	0	1
+5	6	5
+8	7	2
+9	4	8
+10	5	10
+11	10	4
+[F]
+
+#Puzzle 19, una serpiente
+19	2	3	9	96	53	22	21
+0	11	1
+1	9	10
+3	6	5
+4	10	1
+5	2	2
+[F]
+
+#Puzzle 20, un cóndor.
+20	5	3	9	0	80	23	14
+2	11	8
+5	7	2
+6	4	8
+7	6	5
+8	5	10
+9	10	4
+12	0	1
+[F]
+
+#Puzzle 21, sunflower
+21	3	4	9	0	0	0	0
+0	1	15
+4	9	10
+7	6	5
+8	10	4
+10	3	1
+[F]
+
+#Puzzle 22, obelisco
+22	1	3	9	0	0	0	0
+0	0	1
+1	5	5
+2	4	4
+[F]
+
+#Puzzle 23, montaña nubosa
+23	4	4	9	0	0	0	0
+0	5	10
+1	6	10
+6	0	1
+9	7	4
+10	2	1
+12	9	5
+15	10	2
+[F]
+
+#Puzzle 24, caballo.
+24	5	3	9	0	0	0	0
+0	0	8
+1	7	8
+6	2	8
+7	5	10
+8	4	2
+9	9	10
+11	6	5
+13	10	8
+[F]
+
+#Puzzle 25, bosque con torre.
+25	4	3	9	0	0	0	0
+1	0	1
+4	1	15
+5	5	5
+6	8	8
+8	3	1
+9	4	4
+10	6	5
+11	11	2
+[F]
+
+#Puzzle 26, cup and drop.
+26	1	4	9	0	0	0	0
+0	11	8
+2	8	2
+3	3	1
+[F]
+
+#Puzzle 27, reflejo en montaña de montaña.
+27	1	3	9	0	0	0	0
+0	0	1
+1	5	10
+2	10	4
+[F]
+
+#Puzzle 28, catarata con luna y montaña.
+28	4	4	9	0	0	0	0
+0	8	1
+6	10	1
+7	9	10
+8	7	4
+9	4	2
+10	11	1
+11	6	10
+12	5	5
+[F]

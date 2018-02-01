@@ -1,0 +1,93 @@
+#Tercera sala, practicar el salto con riesgo.
+#w	h	d	id_sala	cam.est secreta
+6	10	10	3	1	0
+
+################################################################################
+[F]
+################################################################################
+#x	y	z	comp	rep	id	pla
+
+#Fondo letal...
+*	*	0	2	0	0	0
+
+#Suelo, parte sur y norte
+*	6|8	3	1	2	0	1
+*	0|1	3	1	2	0	1
+4|5	2	3	1	2	0	1
+
+#Pared roca fondo y muro
+0	*	*	1	10	0	0
+0	*	0	-	38	-	-
+1	7|8	4|5	1	2	0	1
+
+#Plataformas pared roca...
+#1	3|4	3	1	10	0	1
+#1	4	4	1	10	0	1
+#1	3	4	1	13	0	1
+#2	3|4	3	1	13	0	1
+#1	4	5	1	13	0	1
+
+1	3|4	3	1	17 	-	1
+
+1	7|8	6	1	13	0	1
+
+#Muro invisible sur
+*	9	*	1	0	0	0
+
+#Muro norte y puerta norte...
+1|6	0	4|8	1	2	0	1
+2|4	0	4|6	-	4	-	-
+3	0	4|5	0	0	0	1
+#Fix profundidad...
+0|2	0	*	-	-	-	0
+
+#Entrada sur...
+2	9	3	1	2	0	1
+2	9	4|9	0	0	0	1
+
+#Secreto...
+0	7	7	1	152	1	0
+0	7	8	-	153	0	1
+0	7	9	-	-	-	1
+0	8	7|9	-	-	-	1
+
+#Deco fondo
+0	4	9	-	158	-	-
+0	5	9	-	0	-	-
+0	6	9	-	159	-	-
+
+################################################################################
+[F]
+################################################################################
+
+#Entrada sur y norte
+#tipo	x	y	z	id
+1	36	148	64	1
+1	50	8	64	2
+1	3	114	112	3
+
+#Salida sur y norte
+#tipo	x	y	z	w	d	h	entr	sala
+2	32	159	64	16	1	1	2	2
+2	48	0	64	16	2	1	1	4
+2	0	112	112	1	16	1	1	61
+
+#Sonido ambiente pájaros
+#tipo	x	y	z	t.repr.	id_snd	volum	pan	param1	param2	activo	id
+4	0	0	0	3	52	32	127	300	2000	1	0
+4	0	0	0	3	53	32	127	1000	500	1	0
+
+#Sonido secreto
+#tipo	x	y	z	t.repr.	id_snd	volum	pan	param1	param2	activo	id
+4	0	0	0	1	56	128	127	0	0	0	2
+
+#Marca salida...
+14	32	168	64	112
+
+################################################################################
+[F]
+################################################################################
+
+#Interruptor secreto
+#tipo	x	y	z	w	h	d	cadena	secreto t.cond	cadena.cond
+8	15	112	112	1	16	16	92	1	0	0

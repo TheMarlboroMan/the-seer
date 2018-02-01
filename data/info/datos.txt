@@ -1,0 +1,13 @@
+################################################################################
+#Ficheros de información...
+################################################################################
+
+data/info/datos_persistentes.txt
+data/info/datos_cadenas.txt
+data/info/datos_temporizadores.txt
+data/info/datos_bloques.txt
+data/info/datos_actores.txt
+data/info/datos_salas.txt
+data/info/datos_patrones_disparador.txt
+data/info/datos_proyectiles.txt
+

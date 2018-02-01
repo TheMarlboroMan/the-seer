@@ -1,0 +1,45 @@
+== IDEA: =======================================================================
+
+Juego de exploración y plataformas con perspectiva isométrica y 3d. Habría
+varias salas que explorar y superar, con items que coger en cada sala y 
+palancas que apretar, que pueden afectar a otras salas para continuar abriendo
+el camino.
+
+El objetivo es llegar hasta el final del mapa resolviendo cada una de las 
+salas que pueden seguir un camino lineal. Al desviarse del camino original 
+aparecen más salas que añaden algo de exploración y contienen más gemas.
+
+La idea es que sea cortito y te lo puedas ventilar en 20 minutos, para tener una 
+demo funcionando y subida en alguna parte.
+
+== LOCALIZACION: ===============================================================
+
+Un castillo o fortaleza o algo por el estilo con las siguientes partes:
+
+- Jardin / Exterior
+- Edificio principal
+- Torre
+
+== ITEMS: ======================================================================
+
+En las salas pueden encontrarse:
+
+- Gemas
+- Cofres
+- Llaves
+- Una vida.
+
+Cada sala, gema y cofre abierto se recuentan durante el juego y contarían
+para un porcentaje de finalización. Las vidas no.
+
+== LOOP: =======================================================================
+
+El jugador tiene tres vidas. Las vidas pueden perderse al:
+
+- Tocar cualquier bloque de la sala que esté marcado como "letal"
+- Chocar con cualquiera de estas trampas:
+	- Dardos disparados desde la pared.
+	- Sierras que andan por el suelo.
+
+Al perder todas las vidas, el juego se termina. No hay forma de guardar el 
+progreso. Pueden obtenerse más vidas cogiendo los items de turno.

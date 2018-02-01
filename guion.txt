@@ -1,0 +1,46 @@
+El protagonista no tiene nombre, y es un seer de algún tipo de tribu del desierto.
+
+Los seers tienen ojos de un color distinto, en lugar del color oscuro habitual, algún tipo de azul otherwordly o algo así. 
+
+A un seer se le distingue por sus ojos al nacer y se le niega un nombre. Desde que nace se le lleva al templo / monasterio donde se le educa hasta que tiene edad de emprender el viaje. Nunca hay más de un seer a la vez. Cuando no hay seer, el conocimiento se pasa entre los sacerdotes, a la espera de que nazca el siguiente.
+
+Los seers pueden ver energía y líneas entre las estrellas y aprenden a interpretar lo que ven como un mapa. Un seer apenas puede ver a la luz del día si no es tapándose los ojos con una visera.
+
+El viaje de los seers es una tradición: cuando llegan a la edad adulta y han desarrollado sus cualidades, deben emprender un viaje en la dirección indicada por una estrella que es visible sólo durante cuatro noches al final de la estación seca. La tradición dicta que ese es el punto de partida, pero que deben continuar leyendo los signos para llegar hasta su destino. Nunca se especifica el destino y la finalidad de los viajes. Los seers nunca vuelven del viaje.
+
+Durante el viaje de este seer, su camino le conducirá hasta el borde del desierto donde leerá acerca de "la fortaleza", sólo visible durante pocas horas en una alineación de estrellas concreta. 
+
+La fortaleza es la última residencia de los navegantes: seres que podían navegar en el espacio y el tiempo. La fortaleza realmente no existe, sino que es un reflejo en el tiempo del momento en que existió.
+
+El tema es que la tribu es descenciente de los navegantes. Los genes de los mismos se manifiestan en los ojos de los seers, que aún pueden ver las líneas que los navegantes usaban al viajar.
+
+No hay mucha historia que contar, pero en el guión podremos meter varias cosas acerca de la historia de la tribu, de como no conoce familia, la educación, cómo ve las estrellas o como los seers son a la vez objeto de adoración, temor y rechazo en su mundo.
+
+=============================
+
+Sobre los seers: son adorados y temidos, pero también completamente separados de la sociedad hasta el punto en que jamás salen del templo, sólo durante la "procesión silenciosa", que tiene lugar de noche y en silencio, sin personas mirando.
+
+La tribu realmente no sabe la finalidad de los seers (de hecho ellos tampoco lo saben) pero el viaje y la tradición son respetados de forma mística y prácticamente religiosa.
+
+=============================
+
+Sobre la tribu: viven en una ciudad en el desierto que podría llamarse "Dunia" ("mundo" en árabe). Completamente asilados del centro del mundo. A pesar de que la ciudad es próspera, aún hay tribus nómadas separadas. El protagonista vendría de una de estas tribus. Su historia se grabaría en los "memory totems", trozos de madera con escritura parecida a la cuneiforme donde se narra la historia. En el archivo diapositivas.0.dat hay algunos datos que pueden ser interesantes conservar.
+
+==============================
+
+Sobre la fortaleza: podría llamarse "Akihrah" (o igual no, igual es demasiado religioso, ¿qué palabra sería madre o fortaleza?). La fortaleza de por si no existe, sería el recuerdo de la fortaleza impreso en la retina de un seer y materiálizandose de esa forma. Eso explicaría porque hay estatuas que se parecen a él, por ejemplo.
+
+Durante el juego hay que hacer énfasis en algunos aspectos: los jardines podrían representar el mundo según lo conoce la tradición, la sala del cartógrafo y los mapas deberían tener mucha relevancia (por aquello de que son los navegantes) y debería haber un montón de cosas que serían completamente desconocidas, pero muy familiares.
+
+La fortaleza no debería ser concebida en ningún momento como un afterlife (por eso el nombre de Akihrah no mola, "Zakera" parece significar "Memoria", que estaría mejor) sino como un "recuerdo".
+
+Queda la duda de dónde fueron a parar los navegantes, of course.
+
+==============================
+
+El final: si no se consiguen todas las cosas que hay que conseguir deberíamos tener un final "malo": la fortaleza se desvanece y el protagonista despierta en el lecho de un río. Al mirarse, los ojos han cambiado de color. Pondera volver pero comprende que no conoce realmente nada de su ciudad y decide continuar viajando: sin guía.
+
+La intepretación del final malo sería que ha estado demasiado expuesto al "recuerdo" de la fortaleza y se le ha "quemado" la vista.
+
+El final bueno sería aquel en el que se empiezan a pasar por las partes raras, como los jardines, la playa y demás, que no tienen sentido en el contexto (el archivo "diapositivas.0.dat" tiene un montón de textos que podríamos usar). Todas las partes raras serían los recuerdos de la fortaleza intentando comunicar con él. Al final podría ascender una estructura enorme, consciente de que la fortaleza ya no queda bajo él. En lo alto de la estructura podría ver el mapa de la tierra tal y como los navegantes lo vieron y también podría ver el pasado y presente de aquellos puntos que significan algo para él. Comprendiendo que la fortaleza está hablándole cae en un éxtasis desde el cual supuestamente está contactando con el jugador, rompiendo un poco el cuarto muro.
+

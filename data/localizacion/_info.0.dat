@@ -1,0 +1,248 @@
+#Archivo de localización para mapa y textos mostrados durante
+#el juego.
+
+##########################################################################
+# Intro
+<20$>Press any key<#>
+<21$>Start / load game<#>
+<22$>Configuration<#>
+<23$>Return to game<#>
+
+<30$>Select game data slot
+  (press delete to erase)<#>
+<31$>Data<#>
+<32$>- EMPTY -<#>
+
+##########################################################################
+# Configuracion...
+<50$>Fullscreen<#>
+<51$>Video hardware memory<#>
+<52$>Music volume<#>
+<53$>Sound volume<#>
+<54$>Language<#>
+
+<70$>Yes<#>
+<71$>No<#>
+<72$>0 - Silence<#>
+<73$>1 - Low<#>
+<74$>2 - Medium<#>
+<75$>3 - Loud<#>
+<76$>4 - High<#>
+<77$>5 - Full<#>
+
+##########################################################################
+# Mapa 
+
+#Textos fijos...
+<95$>Amulet habilities<#>
+<96$>Stone tablets<#>
+
+#Nombres de las habilidades
+<100$>Fire stone<#>
+<101$>Water stone<#>
+<102$>Translocator stone<#>
+<103$>Impulse stone<#>
+<104$>Time flow stone<#>
+<105$>Eye stone<#>
+<106$>Sharp stone<#>
+<107$>Feather stone<#>
+
+#Descripciones de las habilidades
+#Ancho máximo: Incluyendo símbolo de comentario
+#-------------------
+
+<200$>Grants resistance to
+lava for a short 
+while. Doesn't work
+on traps.<#>
+
+<201$>Grants resistance to
+water for a short
+while.<#>
+
+<202$>Allows the use of 
+translocator stones. 
+Consumes one tank.<#>
+
+<203$>Instant push of speed.
+Consumes one tank.<#>
+
+<204$>Stops time for 3
+seconds. Doesn't 
+grant invulnerability.
+Consumes 3 tanks.<#>
+
+<205$>Reveals existance of
+secrets in the 
+current area. 
+Consumes one tank.<#>
+
+<206$>Grants resistance to
+dart traps for a short 
+while. Doesn't work
+on spikes.<#>
+
+<207$>Confers an instant push
+upwards. Can only be used 
+on the ground. Cancels 
+all other movement.<#>
+
+################################################################################
+# Info en juego: todos los mensajes que ocurran en el estado de juego
+# van a estar aquí. Empiezan en el 300. 
+#
+# Indice
+# 0 -> Tanque energía
+# 1 -> Llave
+# 2 -> Cofre
+# 3 -> Tesoro
+# 4 -> Habilidad lava
+# 5 -> Habilidad agua
+# 6 -> Habilidad transporte
+# 7 -> Habilidad impulso
+# 8 -> Habilidad tiempo
+# 9 -> Habilidad secretos
+# 10 -> Amuleto
+# 11 -> Habilidad dardos
+# 12 -> Bonus de tiempo
+# 13 -> Habilidad super salto
+# 50 -> Se necesita el amuleto para activar.
+# 51 -> Se necesita una pieza de puzzle para activar.
+# 52 -> Confirmar salida del juego.
+# 53 -> Sesión guardada.
+# 54 -> Error sesión guardada.
+# 55 -> Intentar abrir cofre sin llave.
+# 56 -> Obtener tiempo usando los bonus de tiempo.
+
+# Info en juego ########################################################
+#LONGITUD MAXIMA...
+##############################################
+
+<300$>Essence tank:
+
+Provides an extra essence tank. Essence tanks
+are consumed by using the amulet powers.<#>
+
+<301$>Chest key:
+
+Chest keys allow opening the chests across 
+the fortress. Once a chest is opened, the 
+key is consumed.<#>
+
+<302$>Stone tablet:
+
+The chest contains a misterious stone tablet 
+with geometrical engravings. The engravings
+are bright with an eerie light.<#>
+
+<303$>Jewel:
+
+Bright green jewel, part of the fortress' 
+treasure. Adds a small amount of time to the 
+eclipse counter.<#>
+
+<304$>Fire stone:
+
+Amulet counterpart. When equipped allows to 
+walk on lava for a limited amount of time.<#>
+
+<305$>Water stone:
+
+Amulet counterpart. When equipped allows to 
+walk on water for a limited amount of time.<#>
+
+<306$>Translocator stone:
+
+Amulet counterpart. When equipped allows to 
+use the translocator plates. Stand on a plate
+and use the amulet to activate it.<#>
+
+<307$>Impulse stone:
+
+Amulet counterpart. When used, confers an 
+instant push that can help cross large gaps 
+or avoid fast traps.
+Use the amulet to activate it.<#>
+
+<308$>Time flow stone:
+
+Amulet counterpart. When used, stops the flow 
+of time for a short while but does not confer 
+invulnerability to stopped hazards. 
+Use the amulet to activate it.<#>
+
+<309$>Eye stone:
+
+Amulet counterpart. When used, shows a red 
+signal to indicate that hidden entrances are 
+nearby. The effect wears off in a few seconds.
+Use the amulet to activate it.<#>
+
+<310$>Amulet:
+
+Cooper necklace with strange engravings. 
+Seems to have a small cavity where something 
+might be placed.
+Allows to equip its counterparts and to 
+activate locked mechanisms.<#>
+
+<311$>Sharp stone:
+
+Amulet counterpart. When equipped allows to 
+resist dart and arrow traps for a limited 
+amount of time. Does not work on spikes.<#>
+
+<312$>Eclipse stone:
+
+Redeemable at eclipse altars. Each stone
+spent noticeably increases the time left
+in the eclipse counter.<#>
+
+
+<313$>Feather stone:
+
+Amulet counterpart. When used, confers an 
+instant push upwards to reach high 
+ledges.
+
+Use the amulet to activate it.<#>
+
+<350$>The mechanism won't yield.
+
+There's an engraving of an amulet on the
+base.<#>
+
+<351$>A strange board rests on a plate,
+a mechanism underneath it.
+
+It has marks and carvings as if an assortment 
+of pieces could be placed there.<#>
+
+<352$>
+Are you sure you want to quit?
+
+Press ESCAPE to quit, JUMP or USE to continue.<#>
+
+<353$>Your progress has been saved.<#>
+
+<354$>An error ocurred while saving your progress:
+progress information was not saved. Please,
+check you have enough disk space and proper
+permissions.<#>
+
+<355$>
+The chest is locked shut.
+
+A key is needed to open it.<#>
+
+<356$>All the eclipse stones dissolve into
+dust.
+
+The eclipse counter has been extended.<#>
+
+<357$>An eclipse altar. 
+
+Eclipse stones may be consumed here to
+extend the eclipse counter.
+
+There are no stones to consume.<#>

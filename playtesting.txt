@@ -1,0 +1,365 @@
+Sistema:
+
+	Cada puzzle debe ir acompañado de un poemilla o haiku o descripción que ayude.
+
+	A veces salta y no hace sonido, en las primeras salas con los pájaros. 
+
+	Parece que cada vez que cargamos una partida se pierde algo de memoria. Instalar valgrind y mirarlo.	
+
+	Marcar sala actual como interesante o no: habría que serializarlo desde el controlador de mapa (el Control_salas que se pasa es constante y no podríamos alterarlo).
+
+	Error de choque, pero con actores. El salto en la sala 161 desde la plataforma de bonus hasta el teletransportador es sospechoso aquí.
+
+	Estado de ayuda en el que te explique los controles????
+
+	El tiempo no pasaría entre las salas 96-100 para no tocar las salas en 
+	si podríamos hacer un archivo de listado con salas secretas y también 
+	específicas de este tipo. O tocar las salas. O hardcodear.
+
+Gráficos:
+
+	Gráficos de todos los puzzles.
+
+Audio:
+
+	Sonido de inicio y fin de detector de secretos.
+	SONIDO SIERRAS SUCKS.
+	Sonido teletransportador
+
+Diapos:
+
+	Puntos de guardado.
+	Justo antes del inicio, para empezar a explicar.
+
+Juego:
+
+	Más tiempo, unas cuatro horas
+	El tiempo se ha acabado y el juego sigue. 
+
+
+=== Salas: ===
+
+entrar y salir de cada sala.
+Trampas para impulso.
+Trampas para tiempo
+
+Sala 2 : 
+*	Quitar punto guardado.
+*	Decorar un poco
+
+Sala 3 : 
+*	Decorar un poco el fondo
+*	Bloquear el acceso al secreto hasta tener la piedra de salto.
+
+Sala 4 : 
+*	Gemas tras salto
+
+Sala 6 : 
+*	Gemas tras salto
+*	Decoración de las plataformas con semirampas.
+*	Barandas en los bordes.
+
+Sala 8 : 
+*	Punto de guardado al inicio
+*	Gemas en la puerta
+*	Algún bonus en la columna superior del todo.
+
+Sala 9 : 
+*	Bonus tras el salto
+
+Sala 10 : 
+*	Algo importante tras los saltos: una palanca de amuleto que abra una puerta con bonus detrás. 
+*	Cambiar sonido de llamas on y off por los usuales.
+*	Corregir lava bajo pilares.
+*	Escaleras para subir.
+
+Sala 11 : 
+*	Bonus tras la reja de lava.
+*	Elevar las rejas un nivel más: es posible saltarlas.
+*	Isleta al final de la lava, que haya una subida y una sala con bonus al sur luego.
+
+Sala 12 : 
+*	Bonus sobre las escaleras.
+*	Corregir esquina baja noreste.
+
+Sala 14:
+*	Bonus en la plataforma o algo.
+
+Sala 15 : 
+*	Algo en la parte alta: por ejemplo, una palanca activable sólo con el amuleto que abre una sala de bonus en la parte baja, al sur.
+
+Sala 16: 
+*	Punto de guardado en la parte baja.
+*	Quitar teleporters y poner escalera activable desde arriba
+*	Revisar salas secretas en mapa, que no salen.
+*	Algún bonus en la parte superior de los setos.
+*	Cambiar el punto de guardado de sitio para retirarlo de la rampa. Mover tb la salida.
+
+Sala 18 : 
+*	Bonus en la parte superior inalcanzable.
+
+Sala 21 : 
+*	Punto de guardado.
+
+Sala 22 : 
+*	Bonus en la plataforma, quitar baranda.
+*	Quitar plataforma y bonus.
+*	Añadir altar de tiempo
+
+Sala 23:
+*	Añadir bonus por el suelo.
+
+Sala 24 :
+*	Escalera que baja a bonus????
+*	Pequeña continuación al sur que abre el camino para una nueva sala por el muro, sencillita. Al final del muro hay una puerta cerrada con la tabla de los jardines. Detrás no tengo ni idea de lo que pondremos, probablemente una llave y muchos bonus pero hay que conservar un poco de simetría ahí (salas 155 y 156)
+*	Colocar indicador acceso a esta nueva entrada.
+=	Teleportador de extremo a extremo.
+
+Sala 25 : 
+*	Bonus en la parte baja.
+*	Reja en la parte superior para impedir acceso con super salto.
+
+Sala 27 : 
+*	Bonus en las plataformas para que haya que hacer los saltos.
+
+Sala 28 : 
+*	Bonus en el secreto.
+*	Cambiar representación del secreto: no se ve bien.
+*	Aumentar valor de bonus en el secreto.
+
+Sala 30 : 
+*	Bonus en plataforma.
+*	Bonus en las columnas, en lo alto.
+
+Sala 31 :
+*	Bonus en plataforma alta.
+
+Sala 32 :
+*	Islote con cofre en la catarata.
+*	El borde de la catarata no es letal.
+
+Sala 36 :
+*	Usar las barras para alcanzar otra puerta. Detrás de esa puerta podría estar la piedra teleportación, bloqueada por un puzzle para la piedra de "quarters". La puerta puede estar ENCIMA de una catarata y encima de la otra puede haber bonus (sala 157)
+*	Bonus sobre la cueva.
+
+Sala 37 : 
+*	Bonus en parte superior.
+*	Reja en la caida de agua, para no entrar.
+*	Decorar de algún modo la pared oeste.
+*	Si hiciéramos un árbol este sería un buen sitio para ponerlo.
+
+Sala 40:
+*	Decorar el suelo con alguna piedra.
+
+Sala 42 : 
+*	Suelo bajo puerta, debe ser sólido!!!.
+
+Sala 44: 
+*	La trampa de lava no tiene mucho sentido. Sustituir por pinchos.
+*	Bonus entre llamas.
+
+Sala 45 : 
+*	Rejas en la plataforma inicial para no hacer super salto...
+*	Bonus dentro de la celda.
+*	Bonus en la subida.
+*	Bonus de tiempo dentro de la celda.
+
+Sala 46:
+*	Altar tiempo en zona inferior.
+*	Bonus en las plataformas de la zona superior.	
+*	Teleportador rompe la linearidad, quitar
+
+Sala 47 : 
+*	Orbe dentro de celda.
+*	Bonus dentro de otras.
+*	Más bonus de tiempo libremente alcanzables.
+*	Toda la parte inferior está sólo para conseguir un orbe. Necesitamos un premio mejor: Tal vez un cofre en esa sala!!.
+
+Sala 48 :
+*	Altar de tiempo.
+
+Sala 49 : 
+*	Algo importante dentro de las llamas, un orbe o algo.
+*	La sierra más pegada al dormitorio se ha pirado.
+*	Algún bonus dentro del laberinto.
+
+Sala 50 :
+*	Quitar piedra teleporter.
+*	Añadir punto guardado.
+
+Sala 52 : 
+*	Bonus tras la puerta.
+*	LLave tras la puerta, sería la llave de la sala del trono o de los sótanos.
+
+Sala 53 
+*	Decoración de flores y plantas en jardín.
+
+Sala 54 : 
+*	Bonus tras el agua.
+
+Sala 55 :
+*	Algunos bonus en los soportes.
+
+Sala 56 : 
+*	Bonus sobre las librerías.
+
+Sala 57 :
+*	Altar tiempo.
+
+Sala 59:
+*	Bonus encima de la casetilla.
+
+Sala 64 : 
+*	Reja en la lava, para no intentar entrar.
+*	Las rocas delante de la lava no están ordenadas, el jugador se pone por delante.
+
+Sala 65 :
+*	Hacer bloque metálico con un poco de lava debajo.
+*	Arreglar el suelo que está por delante y engaña la perspectiva.
+
+Sala 74 : 
+*	Sonido cataratas leve.
+
+Sala 100:
+*	Decorar un poco.
+*	Sonido puerta. No ha sonado al abrirla.
+
+Sala 101:
+*	Poner algún puente para quitar saltos.
+
+Sala 103 : 
+*	Barandilla en la zona superior o algo, donde están los ladrillos amarillos.
+*	Decorar un poco la pared norte.
+
+Sala 104: 
+*	Debe haber algo tras el puzzle.
+*	Decorar un poco los muros.
+
+Sala 105: 
+*	Se puede supersaltar a lo alto de los pilares.
+
+Sala 107:
+*	Algunos bonus de tiempo tras la reja.
+
+Sala 109:
+*	Colocar bonus, considerando que no es obligatorio pasar por aquí.
+
+Sala 110:
+*	Quitar sonido auto.
+
+Sala 115:
+*	El impulso no es lo suficientemente largo como para pasar los agujeros arriba.
+
+Sala 117:
+*	Reparto de bonus.
+
+Sala 118: 
+*	Un orbe.
+
+Sala 119:
+*	Reparto de bonus.
+
+Sala 120:
+*	Reparto de bonus.
+
+Sala 121:
+*	Un cofre
+
+Sala 123:
+*	Reparto de bonus.
+
+Sala 125:
+*	Reparto de bonus.
+*	La puerta secreta del norte no funciona.
+
+Sala 127 : 
+*	Un altar de tiempo y algunas joyas de tiempo
+*	Poner llave
+
+Sala 163:
+*	No se puede coger nada (!!!).
+
+Sala 130:
+*	El puzzle se abre con la pieza 1.
+
+Sala 131:
+*	Repartir bonus.	
+
+Sala 132 : 
+*	El puzzle NO debe permitir el acceso a esa sala, sino a otra. Se rompe la continuidad si no se hace así. Podemos situar el acceso pegado a la entrada, para no estorbar el flow. La sala bloqueada debería tener algo bueno: una habilidad o algo.
+
+Sala 134 : 
+*	La palanca no debe abrir esas puertas, sino otra con bonus o algo. De lo contrario se rompe la continuidad.
+ 
+Sala 135:
+*	Colocar bonus.
+
+Sala 136:
+*	Bonus en la hondonada.
+
+Sala 137 : 
+*	No se puede recorrer de arriba a abajo!!. Dejar agujero en rejas.
+*	La trampa en si está mal orientada: el acceso a esta zona es desde la royal chamber. Podemos cambiar esta sala por otra en la que si tenga sentido y usarla en la sala 133. Luego habría, por ejemplo, un cofre o una llave o algo (sala 160)
+
+Sala 138:
+*	La viga de la parte norte no es sólida. Hacerla sólida y poner algún bonus.
+
+Sala 139 :
+*	Bonus en la parte inferior.
+
+Sala 140: 
+*	Algo arriba, bonus de tiempo, por ejemplo.
+
+Sala 141:
+*	Bonus en el camino.
+
+Sala 143:
+*	Bonus en la parte alta.
+
+Sala 144:
+*	Facilitar la subida después del primer supersalto, para no andar esperando.
+*	Decorar un poco...
+
+Sala 149:
+*	Poner algo importante ahí, un cofre y tal.
+*	Poner vallas en el borde del saliente, para que no de impresión de que puedes saltar.
+*	Se ha quedado una plataforma de seguridad justo bajo las que desaparecen. Quitarla.
+
+Sala 151:
+*	El muro este es inexistente!!!
+
+Sala 153:
+*	Aumentar el premio en bonus. Viene de algo difícil.
+
+Sala 156:
+*	Poner algo ahí: un tanque de energía.
+
+Sala 157:
+*	Marcar entrada en mapa, poner la puerta para que se sepa que hay algo ahí.
+
+Sala 159:
+*	Cambiar el id del puzzle que lo abre!!!.
+
+Sala 160:
+*	Poner algo ahí (llave)
+
+Sala 162:
+*	Poner algo ahí (llave)
+
+Sala 163:
+*	Poner algo ahí (llave)
+
+Sala 178:
+*	Mirar bien el orden, justo en la curva las paredes se ven raras.
+
+Sala 195:
+*	Apartar un poco las rejas del borde, para que al supersaltar al borde no pete.
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+En mapa:
+	Incluir puntos de guardado en mapa!!
+	Incluir altares de tiempo en mapa (cambio de programación, of course)!!

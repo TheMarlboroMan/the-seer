@@ -1,0 +1,110 @@
+----==== PUNTOS DE GUARDADO ====----
+ 
+Sala 8 *
+Sala 16 *
+Sala 21 *
+Sala 32 *
+Sala 41 *
+Sala 50 *
+Sala 54 *
+sala 59 *
+Sala 117 *
+Sala 125 *
+Sala 132 *
+Sala 138 *
+Sala 144 *
+
+----==== ALTARES TIEMPO ====---
+
+? Sala 4
+? Sala 9
+? Sala 18
+? Sala 22
+? Sala 37
+? Sala 44	
+? Sala 48
+? Sala 56
+? Sala 112
+? Sala 117
+Sala 127 (NO ESTA EN MAPA)
+? Sala 159
+
+----==== PUZZLES ====----
+
+v 1 - Sala 100 (pieza 0) - Primer puzzle
+v 2 - Sala 29 (piezas 0,1,2). - Bloqueando acceso a tercera parte
+v 3 - Sala 32 (piezas 0,1,2). - Bloqueando piedra fuego
+v 4 - Sala 42 (piezas 1 y 3) - Bloqueando piedra impulso
+v 5 - Sala 126 (piezas 3 y 5) - Bloqueando llave
+v 6 - Sala 130 (piezas 0 y 3) - Bloqueando otro acceso cuevas
+v 7 - Sala 104 (piezas 1 y 2) - Bloqueando piedra flechas
+v 8 - Sala 116 (piezas 0 y 3) - Bloqueando acceso cuevas
+v 9 - Sala 157 (pieza 1) - Bloqueando piedra teleportacion
+v 10 - Sala 155 (pieza 2) - Bloqueando orbe en segunda parte, quarters
+v 11 - Sala 159 (piezas 3, 6, 7) - Bloqueando acceso orbe, primera parte outer yard.
+v 12 - Sala 110 (piezas 0,3,4,5) - Bloqueando llave y bonus
+v 13 - Sala 54 (pieza 9) - Bloqueando bonus en sky gardens.
+v 14 - Sala 43 (pieza 8) - Bloqueando bonus
+v 15 - Sala 169 (pieza 7) - Bloqueando cofre
+v 16 - Sala 125 (pieza 8) - Bloqueando cofre
+v 17 - Sala 151 (pieza 9) - Bloqueando cofre
+v 18 - Sala 60 (pieza 10) - Bloqueando último cofre
+v 19 - Sala 27 - Bloqueando bonus
+v 20 - Sala 32 -  Bloqueando bonus. 
+v 21 - Sala 113- Bloqueando bonus.
+v 22 - Sala 38 - Bloqueando bonus.
+v 23 - Sala 45 - Bloqueando bonus.
+v 24 - Sala 47 Bloqueando bonus...
+v 25 - Sala 53 Bloqueando bonus...
+v 26 - Sala 58 Bloqueando bonus... -> 
+v 27 - Sala 106 Bloqueando bonus... -> 
+v 28 - Sala 109 Bloqueando bonus... -> 
+
+----==== COFRES ====----
+
+0 - Sala 101 (libre acceso en primera parte)
+1 - Sala 23  (libre acceso en segunda parte)
+2 - Sala 34  (libre acceso en segunda parte)
+3 - Sala 42  (libre acceso en tercera parte)
+4 - Sala 32  (piedra de agua requerida)
+5 - Sala 47 (libre acceso en tercera parte)
+6 - Sala 121 (piedra impulso requerida)
+7 - Sala 149 (libre acceso cuarta parte)
+8 - Sala 170 (requiere pieza 7)
+9 - Sala 172 (requiere pieza 8)
+10 - Sala 175 (requiere pieza 9)
+11 - Sala 174 (requiere pieza 10)
+
+----==== LLAVES ====----
+
+Sala 27 (libre en segunda parte)
+Sala 36 (libre en segunda parte)
+Sala 43 (libre en tercera parte)
+Sala 101 (libre en primera parte)
+Sala 52	(libre en tercera parte)
+Sala 163 (segunda parte, bajo catarata, requiere piedra agua)
+Sala 160 (templo, cuarta parte)
+Sala 162 (primera parte, en dead end, requiere pieza 7)
+Sala 127 (necesarias piezas 3 y 5)
+Sala 165 (hornos, cuarta parte, puzzle bloqueado con habilidad teleportacion para llegar a bonus )
+Sala 168 (mazmorras, con habilidad)
+Sala 173 (cuevas, con habilidad impulso).
+
+----==== HABILIDADES ====----
+
+Salto: Sala 146
+Lava: Sala 108
+Agua: Sala 114  
+Impulso: Sala 115
+Secretos: Sala 59
+Tiempo: Sala 143
+Teletransporte: Sala 157
+Resistencia dardos: Sala 154
+
+----==== TANQUES ====----
+
+Sala 107
+Sala 145
+Sala 118
+Sala 148
+Sala 156

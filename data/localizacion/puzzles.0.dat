@@ -1,0 +1,79 @@
+#Archivo de localización para los títulos de ayuda de cada puzzle. El id del
+#puzzle es la clave del texto aquí.
+
+##########################################################################
+<1$>The most inscribed shape of them all<#>
+<2$>Alchemy lab<#>
+<3$>Fungus and sun<#>
+<4$>Crystal ball<#>
+<5$>Sunlit terraces on the temple<#>
+<6$>A light in the dark<#>
+<7$>Pointing northwest<#>
+<8$>An arrow shot through<#>
+<9$>A shelter from the rain<#>
+<10$>The sun rises by the mountain<#>
+<11$>A blade<#>
+<12$>The tree and the tower<#>
+<13$>Elder man<#>
+<14$>Fish<#>
+<15$>Rodent and sun<#>
+<16$>Sun moon mountain reflection<#>
+<17$>Giraffe<#>
+<18$>Sailing on<#>
+<19$>Snake<#>
+<20$>Condor<#>
+<21$>Sunflower<#>
+<22$>Obelisk<#>
+<23$>Cloudy mountain<#>
+<24$>Horse<#>
+<25$>Forest and tower<#>
+<26$>Cup and drop<#>
+<27$>Mountain reflected on water<#>
+<28$>Moon, waterfall, mountain<#>
+
+
+#Sumando 1000 al id del puzzle salen los textos de ayuda.
+#Maxima longitud..............
+##############################
+#Caben unas siete líneas.
+
+<1001$>This world, and the conscience 
+of everything inhabiting it,
+is construed on complicated 
+shapes containing simpler ones 
+until nothing simpler, thus, 
+the essence, is found.<#>
+
+<1002$>Alchemy lab<#>
+<1003$>Fungus and sun<#>
+<1004$>Crystal ball<#>
+<1005$>Sunlit terraces on the temple<#>
+<1006$>A light in the dark<#>
+<1007$>Pointing northwest<#>
+<1008$>An arrow shot through<#>
+<1009$>A shelter from the rain<#>
+<1010$>The sun rises by the mountain<#>
+<1011$>A blade<#>
+<1012$>The tree and the tower<#>
+<1013$>Elder man<#>
+<1014$>Fish<#>
+<1015$>Rodent and sun<#>
+<1016$>Sun moon mountain reflection<#>
+<1017$>Giraffe<#>
+
+
+<1018$>When all else fails and we've 
+set sails from the Universal 
+Shores, the world will remain 
+empty and silent.<#>
+
+<1019$>Snake<#>
+<1020$>Condor<#>
+<1021$>Sunflower<#>
+<1022$>Obelisk<#>
+<1023$>Cloudy mountain<#>
+<1024$>Horse<#>
+<1025$>Forest and tower<#>
+<1026$>Cup and drop<#>
+<1027$>Mountain reflected on water<#>
+<1028$>Moon, waterfall, mountain<#>

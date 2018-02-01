@@ -1,0 +1,39 @@
+#indice ruta
+
+#Sonidos motor... estos no debemos cambiarlos porque se usan en código!
+1	data/sonidos/caida.ogg
+2	data/sonidos/item.ogg
+3	data/sonidos/cofre.ogg
+4	data/sonidos/salto.ogg
+5	data/sonidos/caida_larga.ogg
+6	data/sonidos/perder_vida.ogg
+7	data/sonidos/detener_tiempo.ogg
+8	data/sonidos/reanudar_tiempo.ogg
+9	data/sonidos/impulso.ogg
+10	data/sonidos/proteccion_lava_agua.ogg
+
+#Sonidos juego...
+
+50	data/sonidos/palanca.ogg
+51	data/sonidos/puerta.ogg
+52	data/sonidos/pajaros_01.ogg
+53	data/sonidos/pajaros_02.ogg
+54	data/sonidos/temporizador.ogg
+55	data/sonidos/fuego.ogg
+56	data/sonidos/secreto.ogg
+57	data/sonidos/dardo.ogg
+58	data/sonidos/lava.ogg
+59	data/sonidos/viento.ogg
+60	data/sonidos/oceano.ogg
+61	data/sonidos/llama_off.ogg
+62	data/sonidos/llama_on.ogg
+63	data/sonidos/llamas.ogg
+64	data/sonidos/catarata.ogg
+65	data/sonidos/agua.ogg
+66	data/sonidos/sierra.ogg
+67	data/sonidos/explosion.ogg
+68	data/sonidos/gran_portal.ogg
+69	data/sonidos/gaviota_01.ogg
+70	data/sonidos/gaviota_02.ogg
+71	data/sonidos/plataforma_magica.ogg
+72	data/sonidos/explosion_peq.ogg
