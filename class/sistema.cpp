@@ -9,7 +9,7 @@ Sistema::Sistema(int argc, char ** argv)
 void Sistema::inicializar_entorno_grafico(DLibV::Pantalla& pantalla, unsigned int w, unsigned int h)
 {
 	configurar_entorno_grafico(pantalla, w, h);
-	pantalla.establecer_titulo("--== CHEAP ISOMETRIC STUFF ==--");
+	pantalla.establecer_titulo("--== THE SEER ==--");
 
 	DLibV::Utilidades_graficas_SDL::mostrar_ocultar_cursor(false);
 	DLibV::Gestor_color::establecer_formato(pantalla.obtener_formato_pixeles());
@@ -18,18 +18,18 @@ void Sistema::inicializar_entorno_grafico(DLibV::Pantalla& pantalla, unsigned in
 void Sistema::configurar_entorno_grafico(DLibV::Pantalla& pantalla, unsigned int w, unsigned int h)
 {
 	unsigned int flags_video=
-		(configuracion.acc_modo_hardware() ? SDL_HWSURFACE : SDL_SWSURFACE) | 
-		(configuracion.acc_pantalla_completa() ? SDL_FULLSCREEN : 0) | 
-		(configuracion.acc_pantalla_doble_buffer() ? SDL_DOUBLEBUF : 0) | 
+		(configuracion.acc_modo_hardware() ? SDL_HWSURFACE : SDL_SWSURFACE) |
+		(configuracion.acc_pantalla_completa() ? SDL_FULLSCREEN : 0) |
+		(configuracion.acc_pantalla_doble_buffer() ? SDL_DOUBLEBUF : 0) |
 		(configuracion.acc_pantalla_anyformat() ? SDL_ANYFORMAT : 0);
-	
+
 	pantalla.inicializar(w, h, 0, flags_video);
-}	
+}
 
 void Sistema::inicializar_entorno_audio()
 {
 	Audio::inicializar_entorno_audio(
-		configuracion.acc_audio_ratio(), 
+		configuracion.acc_audio_ratio(),
 		configuracion.acc_audio_salidas(),
 		configuracion.acc_audio_buffers(),
 		configuracion.acc_audio_canales());
@@ -52,9 +52,9 @@ void Sistema::iniciar()
 
 	cargador_recursos.generar_recursos_graficos();
 	cargador_recursos.generar_recursos_audio();
-	
+
 	//Inicializar controles.
-	input.configurar(); 
+	input.configurar();
 
 	//Inicialización controlador tiempo.
 	control_frames.inicializar();
@@ -100,7 +100,7 @@ Sistema::Info_linea_comandos Sistema::comprobar_argumentos_linea_comandos()
 	return resultado;
 }
 
-/*Este es el proceso de arrancar todos los controladores relacionados con el 
+/*Este es el proceso de arrancar todos los controladores relacionados con el
 estado de juego y el loop en si.*/
 
 void Sistema::iniciar_loop_sistema()
@@ -145,10 +145,10 @@ void Sistema::iniciar_loop_sistema()
 	Controlador_info_juego cij(datos_sistema, input);
 	Controlador_confirmacion cc(datos_sistema, input);
 	Controlador_puzzle cp(datos_sistema, c.acc_tiempo_juego());
-	Controlador_auxiliar cm(datos_sistema, pantalla, 
-					input,  
-					c.acc_control_salas(), 
-					c.acc_control_habilidades(), 
+	Controlador_auxiliar cm(datos_sistema, pantalla,
+					input,
+					c.acc_control_salas(),
+					c.acc_control_habilidades(),
 					c.acc_info_juego(),
 					c.acc_control_objetivos(),
 					W_PANTALLA, H_PANTALLA);
@@ -163,7 +163,7 @@ void Sistema::iniciar_loop_sistema()
 
 		input.turno();
 
-		if(datos_sistema.reconfigurar) 
+		if(datos_sistema.reconfigurar)
 		{
 			procesar_reconfiguracion();
 		}
@@ -208,7 +208,7 @@ void Sistema::iniciar_loop_sistema()
 void Sistema::preparar_iniciar_juego(Controlador_intro& ci, Controlador& c)
 {
 	datos_sistema.establecer_id_sesion_guardado(ci.acc_id_sesion_guardado());
-	
+
 	if(control_sesiones_guardadas.es_sesion_usada(datos_sistema.acc_id_sesion_guardado()))
 	{
 		if(!c.recuperar_sesion_juego()) datos_sistema.abortar_ejecucion();
@@ -217,14 +217,14 @@ void Sistema::preparar_iniciar_juego(Controlador_intro& ci, Controlador& c)
 	{
 		c.iniciar_juego(1, 1);
 	}
-	
+
 	datos_sistema.establecer_en_juego();
 }
 
 //Esto es "abrir el menu"
 void Sistema::preparar_menu(Controlador_intro& ci)
 {
-	ci.restaurar_estado_menu(); 
+	ci.restaurar_estado_menu();
 	datos_sistema.establecer_en_menu_real();
 	Audio::pausar(); //Pausamos todo.
 }
@@ -260,15 +260,15 @@ void Sistema::procesar_estado_mapa(float delta, Controlador_auxiliar& cm, Contro
 void Sistema::procesar_estado_puzzle(float delta, Controlador_puzzle& cp, Controlador& c)
 {
 	tiempo_sistema.t(delta, Tiempo_sistema::E_PUZZLE);
-	
-	if(!cp.es_montado()) 
+
+	if(!cp.es_montado())
 	{
 		cp.preparar(datos_sistema.id_puzzle, c.obtener_piezas_recogidas());
 	}
 
 	if(!cp.loop(delta, pantalla, input))
 	{
-		c.solucionar_puzzle(cp.es_finalizado());						
+		c.solucionar_puzzle(cp.es_finalizado());
 		cp.desmontar();
 		datos_sistema.establecer_en_juego();
 		Audio::despausar_canales_activos(); //Despausamos excepto los que estuvieran pausados por parar el tiempo.
@@ -285,7 +285,7 @@ void Sistema::procesar_estado_juego(float delta, Controlador &c)
 void Sistema::procesar_estado_diapositivas(float delta, Controlador_diapositivas& cd, Pase_diapositivas& pase)
 {
 	tiempo_sistema.t(delta, Tiempo_sistema::E_DIAPOSITIVAS);
-	if(!cd.loop(delta, pase)) 
+	if(!cd.loop(delta, pase))
 	{
 		datos_sistema.establecer_en_juego();
 	}
@@ -321,11 +321,11 @@ void Sistema::procesar_confirmacion_salida(float delta, Controlador_confirmacion
 
 	if(!cc.loop(delta, pantalla))
 	{
-		if(cc.es_abandonar_juego()) 
+		if(cc.es_abandonar_juego())
 		{
 			datos_sistema.abandonar_sistema();
 		}
-		else 
+		else
 		{
 			datos_sistema.establecer_en_menu(false);
 //			ci.establecer_en_intro();
@@ -341,15 +341,15 @@ void Sistema::procesar_estado_info_juego(float delta, Controlador_info_juego& ci
 {
 	tiempo_sistema.t(delta, Tiempo_sistema::E_OTROS);
 
-	if(!cij.es_montado()) 
-	{	
+	if(!cij.es_montado())
+	{
 		cij.preparar(datos_sistema.id_info_juego);
 		ps.preparar(pantalla);
 	}
 
 	ps.dibujar(pantalla);
 
-	if(!cij.loop(delta, pantalla)) 
+	if(!cij.loop(delta, pantalla))
 	{
 		ps.desmontar();
 		cij.desmontar();
@@ -363,7 +363,7 @@ void Sistema::procesar_estado_menu(float delta, Controlador_intro& ci)
 	tiempo_sistema.t(delta, Tiempo_sistema::E_INTRO);
 	ci.loop(delta, pantalla, input);
 
-	if(ci.es_salir_a_sistema()) 
+	if(ci.es_salir_a_sistema())
 	{
 		datos_sistema.confirmar_salida();
 	}

@@ -1,11 +1,11 @@
-CFLAGS=-c -g -O0 -Wno-deprecated -Wall -ansi -pedantic -std=c++0x 
+CFLAGS=-c -g -O0 -Wno-deprecated -Wall -ansi -pedantic -std=c++0x
 #-DLOG_BASE_SILENCIOSO=1
-#CFLAGS=-c -g -O3 -Wno-deprecated -Wall -ansi -pedantic -std=c++0x
+#CFLAGS=-c -O3 -Wno-deprecated -Wall -ansi -pedantic -std=c++0x
 #CFLAGS=-c -g -O0 -Wno-deprecated -Wall -ansi -pedantic
 #CFLAGS=-c -Wno-deprecated -Wall -ansi -pedantic
 CC=g++
-CLINK= 
-CLINK_A= 
+CLINK=
+CLINK_A=
 DIR_CLASS_V=./class/motor_sdl/video/
 DIR_CLASS_A=./class/motor_sdl/audio/
 DIR_CLASS_H=./class/motor_sdl/herramientas/
@@ -116,13 +116,13 @@ $(DIR_O)representacion_bitmap.o: \
 $(DIR_O)representacion_grafica.o \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_bitmap/representacion_bitmap.h \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_bitmap/representacion_bitmap.cpp
-	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_bitmap/representacion_bitmap.cpp -o $(DIR_O)representacion_bitmap.o $(CLINK) 
+	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_bitmap/representacion_bitmap.cpp -o $(DIR_O)representacion_bitmap.o $(CLINK)
 
 $(DIR_O)representacion_pixeles.o: \
 $(DIR_O)representacion_lienzo.o \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_pixeles/representacion_pixeles.h \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_pixeles/representacion_pixeles.cpp
-	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_pixeles/representacion_pixeles.cpp -o $(DIR_O)representacion_pixeles.o $(CLINK)  
+	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_pixeles/representacion_pixeles.cpp -o $(DIR_O)representacion_pixeles.o $(CLINK)
 
 $(DIR_O)representacion_compuesta.o: \
 $(DIR_O)representacion_lienzo.o \
@@ -135,13 +135,13 @@ $(DIR_O)representacion_manual.o \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_lienzo.h \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_lienzo.cpp \
 $(DIR_O)representacion_grafica.o
-	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_lienzo.cpp -o $(DIR_O)representacion_lienzo.o $(CLINK) 
+	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_lienzo.cpp -o $(DIR_O)representacion_lienzo.o $(CLINK)
 
 $(DIR_O)representacion_manual.o: \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_manual.h \
 $(DIR_CLASS_V)representacion/representacion_grafica/representacion_manual.cpp \
 $(DIR_O)representacion_grafica.o
-	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_manual.cpp -o $(DIR_O)representacion_manual.o $(CLINK) 
+	$(CC) $(CFLAGS) $(DIR_CLASS_V)representacion/representacion_grafica/representacion_manual.cpp -o $(DIR_O)representacion_manual.o $(CLINK)
 
 $(DIR_O)camara.o: \
 $(DIR_CLASS_V)camara/camara.h \
@@ -330,7 +330,7 @@ $(DIR_CLASS_A)sonido/sonido.cpp
 	$(CC) $(CFLAGS) $(DIR_CLASS_A)sonido/sonido.cpp -o $(DIR_O)sonido.o $(CLINK_A)
 
 ################################################################################
-# INPUT 
+# INPUT
 
 $(DIR_O)escritor_texto.o: \
 $(DIR_O)controles_sdl.o \

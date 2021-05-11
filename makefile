@@ -1,7 +1,7 @@
-CFLAGS=-c -g -O0 -Wno-deprecated -Wall -ansi -pedantic -std=c++11 
-#-m64
-CFLAGS_FINAL=-g -O0 -Wno-deprecated -Wall -ansi -pedantic -std=c++11 
-#-m64
+CFLAGS=-c -g -O0 -Wno-deprecated -Wall -ansi -pedantic -std=c++11
+CFLAGS_FINAL=-g -O0 -Wno-deprecated -Wall -ansi -pedantic -std=c++11
+#CFLAGS=-c -O3 -Wno-deprecated -Wall -ansi -pedantic -std=c++11
+#CFLAGS_FINAL=-O3 -Wno-deprecated -Wall -ansi -pedantic -std=c++11
 CC=g++
 #-DLOG_BASE_SILENCIOSO=1
 DIR_CLASS=./class/
@@ -65,7 +65,7 @@ $(DIR_O)datos_mapa.o\
 $(DIR_O)gestor_mapa_datos_legibles.o\
 $(DIR_O)cargador_mapa.o\
 
-all: a.out 
+all: a.out
 
 vg:\
 $(OBJETOS)\
@@ -87,7 +87,7 @@ zonas_mapa.cpp
 
 a.out: $(OBJETOS) $(ACTORES) \
 main.cpp \
-libDanSDL.a 
+libDanSDL.a
 	$(CC) $(CFLAGS_FINAL) main.cpp $(OBJETOS) $(ACTORES) -o a.out -L. -lDanSDL -lSDL -lSDL_mixer -lSDL_image
 
 $(DIR_O)sistema.o:\

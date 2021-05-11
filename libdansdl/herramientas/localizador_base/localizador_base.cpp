@@ -79,7 +79,7 @@ void Localizador_base::procesar_fichero(t_cadena const& nombre_archivo)
 			else if(buffer[0]=='#') continue;	//Es un comentario????
 
 			//Delimitador de inicio encontrado?
-		
+
 			indice_aux=this->delimitador_inicio_en_cadena(cadena);
 
 			if(indice_aux!=-1)
@@ -101,17 +101,17 @@ void Localizador_base::procesar_fichero(t_cadena const& nombre_archivo)
 				this->insertar_cadena(indice, cadena_def);
 				cadena_def.clear();
 				cadena.clear();
-			}		
+			}
 
 			//Estamos leyendo?
 			if(leyendo)
 			{
 				cadena.append("\n"); //Insertar nueva línea.
-				cadena_def.append(cadena); //Insertar en cadena actual.	
+				cadena_def.append(cadena); //Insertar en cadena actual.
 				cadena.clear();	//Limpiar buffer.
 			}
-		}	
-	
+		}
+
 		archivo.close();
 	}
 
@@ -124,7 +124,7 @@ encuentra devuelve n#. Si no devolverá -1.
 */
 int Localizador_base::delimitador_inicio_en_cadena(std::string const& p_cadena)
 {
-	unsigned int pos=p_cadena.find("$>", 1);
+	std::size_t pos=p_cadena.find("$>", 1);
 	int indice=-1;
 	std::string cad_indice("");
 
@@ -140,8 +140,7 @@ int Localizador_base::delimitador_inicio_en_cadena(std::string const& p_cadena)
 bool Localizador_base::delimitador_fin_en_cadena(std::string const& p_cadena)
 {
 	bool resultado=false;
-	unsigned int pos;
-	pos=p_cadena.find("<#>");
+	auto pos=p_cadena.find("<#>");
 
 	if(pos!=std::string::npos)
 	{

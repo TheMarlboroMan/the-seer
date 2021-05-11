@@ -20,6 +20,12 @@ This repository includes the code, data and even planning files, but does not in
 
 This depends on a libdanSDL library related to SDL1.2. , whose implementation files are lost to time. It has been patched with the library present in pigs-n-cows, but things may fail.
 
+a)
+
+./build.sh
+
+b)
+
 - 1 Build the library in motor_sdl.
 - 2 Copy the resulting libdansdl.a file to the project root.
 - 3 make the project.

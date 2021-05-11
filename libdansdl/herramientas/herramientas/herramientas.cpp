@@ -24,7 +24,7 @@ int Herramientas::cadena_a_entero(const std::string& p_cadena)
 	Herramientas::sstream.str("");
 	Herramientas::sstream.clear();
 
-	if(p_cadena[0]=='0') 
+	if(p_cadena[0]=='0')
 	{
 		return 0;
 	}
@@ -33,7 +33,7 @@ int Herramientas::cadena_a_entero(const std::string& p_cadena)
 		int resultado=0;
 		Herramientas::sstream<<p_cadena<<std::endl;
 		Herramientas::sstream>>resultado;
-	
+
 		return resultado;
 	}
 }
@@ -46,7 +46,7 @@ unsigned int Herramientas::digitos_en_entero(const int& p_entero)
 	int resultado=0;
 
 	if(copia < 0) copia=-copia;
-		
+
 	while(copia > 0)
 	{
 		resultado++;
@@ -82,7 +82,7 @@ unsigned char Herramientas::utf8_2b_a_uchar(char a, char b)
 }
 
 int Herramientas::abs(int &p_valor)
-{	
+{
 	return (p_valor<0 ? p_valor*-1 : p_valor);
 }
 
@@ -130,9 +130,9 @@ int Herramientas::cadena_a_entero(const char * p_cadena)
 	while(*p!='\0')
 	{
 		cantidad++;
-		p++;			
+		p++;
 	}
-	
+
 	p--;	//Vamos al último valor.
 
 	//Y ahora al revés...
@@ -157,13 +157,13 @@ int Herramientas::cadena_a_entero(const char * p_cadena)
 		p--;
 	}
 
-	return resultado;		
+	return resultado;
 }
 
 std::string Herramientas::float_a_cadena(float numero)
 {
 	std::string resultado;
-	char buffer[40];	
+	char buffer[40];
 	std::snprintf(buffer, 40, "%f", numero);
 	resultado=buffer;
 	return resultado;
@@ -189,10 +189,10 @@ std::string Herramientas::entero_a_cadena(int numero)
 	valor=Herramientas::abs(numero);
 
 	for(i=longitud-1; i>=0; i--)
-	{               
+	{
 	        char temp=48+(valor%10);
 	        resultado.append(1, temp);      //Colocar temp 1 vez.
-	        valor=(valor-(valor%10))/10;    //Tiene su cierta gracia... 
+	        valor=(valor-(valor%10))/10;    //Tiene su cierta gracia...
 	}
 
 	if(numero<0)
@@ -209,7 +209,7 @@ std::string Herramientas::entero_a_cadena(int numero)
 	return reverso;
 }
 
-float Herramientas::round(float r) 
+float Herramientas::round(float r)
 {
 	return (r > 0.0f) ? floor(r + 0.5f) : ceil(r - 0.5f);
 }
@@ -231,7 +231,7 @@ std::string Herramientas::cadena_a_alfanumerica_normalizada(const char * p_caden
 
 std::string Herramientas::cadena_a_alfanumerica_normalizada(std::string const & p_cadena, const char p_reemplazo)
 {
-	std::string resultado;	
+	std::string resultado;
 	unsigned int l=p_cadena.size();
 	unsigned int i=0;
 	unsigned char buffer='0';
@@ -241,7 +241,7 @@ std::string Herramientas::cadena_a_alfanumerica_normalizada(std::string const & 
 		buffer=p_cadena[i];
 
 		if(!isalnum(buffer))
-		{		
+		{
 			buffer=p_reemplazo;
 		}
 
@@ -257,7 +257,7 @@ std::string Herramientas::cadena_a_maximo_ancho(std::string const &p_cadena, uns
 	unsigned int leidos=0;
 	std::string resultado;
 	auto it=p_cadena.begin(), fin=p_cadena.end();
-	
+
 	while(it != fin)
 	{
 		++leidos;
@@ -266,15 +266,15 @@ std::string Herramientas::cadena_a_maximo_ancho(std::string const &p_cadena, uns
 		//TODO: REvisar: si hacemos líneas de exactamente el mismo
 		//ancho hace dos veces \n.
 
-		if((*it)=='\n') 
+		if((*it)=='\n')
 		{
 			leidos=0;
 		}
 		else if(leidos % p_maximo==0)
 		{
 			//TODO
-			//Aquí cabe un poco más de rollo... 
-			//Por ejemplo, si lo que hemos leido es un 
+			//Aquí cabe un poco más de rollo...
+			//Por ejemplo, si lo que hemos leido es un
 			//espacio lo podemos quitar. Si vamos a partir
 			//una cadena en dos podemos directamente cortar
 			//hacia atrás (siempre que haya un espacio cerca)
@@ -293,8 +293,8 @@ bool Herramientas::validar_email(std::string p_email)
 {
 	bool resultado=true;
 
-	unsigned int pos_arroba=0;
-	unsigned int pos_punto=0;
+	std::size_t pos_arroba=0;
+	std::size_t pos_punto=0;
 
 	if(!p_email.size())
 	{
@@ -312,7 +312,7 @@ bool Herramientas::validar_email(std::string p_email)
 		{
 			//Buscamos una arroba.
 			pos_arroba=p_email.find('@');
-		
+
 			if(pos_arroba==std::string::npos)
 			{
 				resultado=false;
@@ -335,7 +335,7 @@ bool Herramientas::validar_email(std::string p_email)
 					}
 				}
 			}
-		}			
+		}
 	}
 
 	return resultado;
@@ -345,8 +345,8 @@ std::vector<std::string> Herramientas::explotar(const std::string & p_cadena, co
 {
 	std::vector<std::string> resultado;
 
-	unsigned int actual=0;
-	unsigned int siguiente=0;
+	std::size_t actual=0;
+	std::size_t siguiente=0;
 
 	while(siguiente != std::string::npos)
 	{
@@ -366,16 +366,16 @@ float Herramientas::porcentaje(float p_parte, float p_total)
 std::string Herramientas::cadena_desde_fichero(const char * p_nombre_fichero)
 {
 	std::ifstream archivo(p_nombre_fichero, std::ios::in);
-	std::string resultado;	
+	std::string resultado;
 	char buffer=' ';
 
 	if(archivo)
 	{
-		while(true) 
+		while(true)
 		{
 			buffer=archivo.get();
 			if(!archivo.eof()) resultado+=buffer;
-			else break;			
+			else break;
 		}
 		archivo.close();
 	}
